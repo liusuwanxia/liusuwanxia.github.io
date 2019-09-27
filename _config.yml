@@ -4,3 +4,4 @@ show_downloads: false
 # google_analytics:
 # theme: jekyll-theme-midnight
 theme: jekyll-theme-leap-day
+lang: "zh-CN"

@@ -56,7 +56,7 @@ body {
 从下图中可以明显看出文本已经成功设置为指定的字体类型:
 {% include image_with_caption.html src="/assets/images/font-setting-font-confirm.png" caption="font-family设置成功" %}
 
-## 扩展阅读
+## 5. 扩展阅读
 
 - 如果对于本文提到的 css 样式想要进一步的了解，可以查询 [W3schools.com](https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp) 。
 - 关于如何在本地搭建Jekyll网站并进行测试，可以参考 [Step by Step Tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/)
