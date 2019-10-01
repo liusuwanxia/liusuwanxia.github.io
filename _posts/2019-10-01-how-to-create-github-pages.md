@@ -69,6 +69,12 @@ https://gems.ruby-china.com
 # 确保只有 gems.ruby-china.com
 ```
 
+由于我们还需要使用 bundler，所以还需要设置 bundler 的镜像下载网站
+
+```bash
+bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+```
+
 ### · 安装 Github Pages 依赖包
 
 那么 Bundler 到底是做什么的呢？简单来说，使用它是为了更好地维护我们博客的依赖关系。试想下面这种情况，我们的博客使用到了除 Jekyll 外的其他 Gem 插件，而其他的插件明确要求必须使用 `Jekyll 2.1` 版本，如果你刚好在电脑中安装了该版本，那么事情可能会很简单。但是如果你需要借鉴别人的博客写法，他的博客因为年代比较久远，只能在 `Jekyll 1.5` 版本下正常运行，又该怎么处理呢？ Bundler 正是为了应付这种情况而准备的。相比于只在系统全局中安装某一个版本的 Gem，我们还可以选择在每个仓库中维护一份单独的 Gem 依赖关系。这样不同的项目之间就不会发生相互干扰的问题了。
