@@ -2,14 +2,20 @@
 layout: post
 title: 《Lost Crypt》学习笔记（1）——部署游戏项目
 image_snippet: image_with_caption.html
+excerpt_separator: <!--more-->
 ---
-最近准备开一个新坑，学习一下 Unity 最新推出的2D游戏解决方案。为了演示自家的引擎有多强大，Unity 现身说法，直接放出了一个几乎涵盖所有新技术的游戏 Demo《Lost Crypt》。由于工作上使用的一直是旧版的Unity，对于Unity近一年的发展几乎是鲜有关注了。所以当我打开Unity 2019.3 时确实被震撼到了，索性重操旧业，写一写学习心得，希望能对几个月后的自己有点帮助(ಥ _ ಥ)。之前写Blog，都是一次性写完，费时又费力，所以这次干脆分段落写，希望能多坚持一段时间吧。。
+最近准备开一个新坑，学习一下 Unity 最新推出的2D游戏解决方案。 为了演示自家的引擎有多强大，Unity 现身说法，直接放出了一个几乎涵盖所有新技术的游戏 Demo《Lost Crypt》。
+<!--more-->
+由于工作上使用的一直是旧版的Unity，对于Unity近一年的发展几乎是鲜有关注了。所以当我打开Unity 2019.3 时确实被震撼到了，索性重操旧业，写一写学习心得，希望能对几个月后的自己有点帮助(ಥ _ ಥ)。之前写Blog，都是一次性写完，费时又费力，所以这次干脆分段落写，希望能多坚持一段时间吧。。
 
 ## 1. 安装Unity Hub及最新版Unity
 
 Unity Hub 是 Unity 公司为了方便管理各种版本的Unity发行的一个启动器，现在还兼具了社区和学习的功能，不论是初学者还是资深开发者都很值得使用。还没有用过的可以到官网对应的 [下载页面][] 下载。由于《Lost Crypt》现在还属于测试阶段，所以我们只能在 Unity 2019.3 及以上版本学习它，直奔主题安装（话说这个Unity Hub安装速度比以前直接安快了不是一点啊。。）
 
-![安装2019](/assets/images/install-unity-2019-3.gif)
+{% include image_with_caption.html src="/assets/images/install-unity-2019-3.gif" caption="安装Unity2019" %}
+
+安装后我们需要创建一个2D空项目，方便之后导入《Lost Crypt》的资源包。
+{% include image_with_caption.html src="/assets/images/create-2D-project.gif" caption="创建2D项目" %}
 
 ## 2. 添加资源
 
@@ -22,6 +28,8 @@ Unity Hub 是 Unity 公司为了方便管理各种版本的Unity发行的一个�
 ## 3. 查看学习向导
 
 没错，这个Demo里甚至还自备了学习向导，帮助你梳理各种 2D 功能并辅以快速跳转的指引。不出意外的话我可能就会按照这个向导里的顺序来写作了。正常情况下你每次打开项目都会自动弹出该向导，但你也可以在任何时候双击 `Assets/DiscoverWindow/DiscoverLostCrypt.asset` 打开该窗口。
+
+{% include image_with_caption.html src="/assets/images/learn-guide.png" caption="查看学习向导" %}
 
 [下载页面]: https://store.unity.com/download?ref=personal
 [Lost Crypt]: https://assetstore.unity.com/packages/essentials/tutorial-projects/lost-crypt-2d-sample-project-158673
